@@ -1,0 +1,29 @@
+.question{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.question__options{
+  display: flex;
+  gap: 30px;
+}
+
+.questions__buttonns{
+  margin-top: 20px;
+}
+
+.hidden{
+  display: none !important;
+}
+
+.app__answers{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.show{
+  display: block;
+}
